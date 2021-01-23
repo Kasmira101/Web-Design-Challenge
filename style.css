@@ -1,0 +1,74 @@
+.navbar-custom { 
+    background-color: blueviolet !important; 
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(green
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: white;
+}
+
+.navbar-custom .dropdown-item {
+    color: rgb(12, 11, 11);
+}
+
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color:  rgb(12, 11, 11);
+    background-color: rgb(186, 197, 197);
+}
+
+.col-md-8,.col-sm-12 {
+    background-color: gray;
+}
+
+.col-md-4,.col-sm-12 {
+    background-color: whitesmoke;
+}
+
+.h1 {
+    color: purple; 
+}
+
+.h2 {
+    color: purple; 
+}
+
+body { 
+    padding-top: 130px;
+    background-color: white;
+}
+
+.h3 {
+    color: purple; 
+    text-align: center;
+}
+
+#compbox {
+    background-color: white;
+}
+
+.box {
+  float: right;
+  height: 300px;
+  width: 375px;
+  margin-bottom: 15px;
+  margin-left: 50px;
+  background-color: white;
+}
+
+.thumbnail:hover {
+  border: solid 5px purple;
+  margin: -5px; 
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        background-color: white;
+    }
+}
